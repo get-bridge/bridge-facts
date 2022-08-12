@@ -30,5 +30,15 @@
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Rapperswil_-_Obersee_-_Holzbr%C3%BCcke_IMG_2846.JPG/800px-Rapperswil_-_Obersee_-_Holzbr%C3%BCcke_IMG_2846.JPG",
             "more_info_url": "https://en.wikipedia.org/wiki/Holzbr%C3%BCcke_Rapperswil-Hurden"
         }
+    },
+    {
+        "id": "30a8366e-6003-4eb7-8990-c5dce2fa8d12",
+        "meta": {
+            "title": "Arkadiko Bridge",
+            "message": "The Arkadiko Bridge or Kazarma Bridge is a Mycenaean bridge near the modern road from Tiryns to Epidauros on the Peloponnese, Greece. Dating to the Greek Bronze Age, it is one of the oldest arch bridges still in existence and use today and the oldest preserved bridge in Europe.\n\nThe corbel arch bridge belonged in Mycenaean times to a highway between the two cities, which formed part of a wider military road network. It has a culvert span of ca. 1 m and is made in the typical Mycenaean manner of Cyclopean stones. The structure is 22 metres (72 ft) long, 5.60 metres (18.4 ft) wide at the base and 4 metres (13 ft) high.",
+            "display_date": "Ca. 1300-1190 BC",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Arkadiko_Mycenaean_Bridge_II.JPG/800px-Arkadiko_Mycenaean_Bridge_II.JPG",
+            "more_info_url": "https://en.wikipedia.org/wiki/Arkadiko_Bridge"
+        }
     }
 ]
