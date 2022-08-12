@@ -1,0 +1,24 @@
+name: 'Validation'
+
+on: 
+  pull_request:
+    branches: 
+      - main
+    paths:
+      - 'data.json'
+      - 'data.sample.json'
+      - 'schemas/bridge-facts.json'
+
+jobs:
+  validate_json:
+    name: 'Validate all JSON files'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.8.9'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: ./validate.py data.json
+      - run: ./validate.py data.sample.json
