@@ -1,8 +1,8 @@
 name: 'Validation'
 
-on: 
+on:
   pull_request:
-    branches: 
+    branches:
       - main
     paths:
       - '**.json'
@@ -18,5 +18,5 @@ jobs:
           python-version: '3.8.9'
           cache: 'pip'
       - run: pip install -r requirements.txt
-      - run: ./validate.py data.sample.json
-      - run: ./validate.py -b data.json
+      - run: ./validate.py data/v1/data.sample.json
+      - run: ./validate.py -b data/v1/data.json
