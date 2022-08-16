@@ -34,8 +34,19 @@
                         "message": {
                             "type": "string"
                         },
-                        "display_date": {
-                            "type": "string"
+                        "date": {
+                            "type": "object",
+                            "properties": {
+                                "iso": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                },
+                                "formatted": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["formatted"],
+                            "additionalProperties": false
                         },
                         "image_url": {
                             "type": "string",
@@ -46,12 +57,12 @@
                             "format": "uri"
                         }
                     },
-                    "required": ["title", "message", "display_date", "image_url"],
+                    "required": ["title", "message", "date", "image_url"],
                     "additionalProperties" : false
                 }
             },
             "required": ["id", "meta"],
-            "additionalProperties" : false            
+            "additionalProperties" : false
         }
     }
 }
