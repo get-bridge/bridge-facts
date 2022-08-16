@@ -5,7 +5,9 @@
         "meta": {
             "title": "Ponte Santa Trinita",
             "message": "The Ponte Santa Trìnita is the oldest elliptic arch bridge in the world, characterised by three flattened ellipses. The outside spans each measure 29 m (95 ft) with the centre span being 32 m (105 ft) in length. On the night between 3 and 4 of August 1944, the bridge was destroyed by retreating German troops on the advance of the British 8th Army. The bridge was reconstructed in 1958 with original stones raised from the Arno or taken from the same quarry of Boboli gardens, under the direction of architect Riccardo Gizdulich, who examined florentine archives, and engineer Emilio Brizzi.",
-            "display_date": "16th century",
+            "date": {
+                "formatted": "16th century"
+            },
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/The_British_Army_in_Italy_1944_NA17848.jpg/606px-The_British_Army_in_Italy_1944_NA17848.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Ponte_Santa_Trinita"
         }
@@ -15,7 +17,9 @@
         "meta": {
             "title": "Nine-arched Bridge",
             "message": "The Nine-arched Bridge (Hungarian: Kilenclyukú híd, literally \"nine-holed bridge\") is the most identifiable symbol of the Hortobágy National Park, Hungary's great plain. This arch bridge was the longest road stone bridge in historic Hungary prior to 1921 when Hungary was reduced to one-third of its former territory. The bridge was built between 1827 and 1833 in a Classical style.",
-            "display_date": "1833",
+            "date": {
+                "formatted": "1833"
+            },
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Hortobagy_h%C3%ADd.jpg/800px-Hortobagy_h%C3%ADd.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Nine-arched_Bridge"
         }
@@ -26,7 +30,10 @@
         "meta": {
             "title": "Holzbrücke Rapperswil-Hurden",
             "message": "Holzbrücke Rapperswil-Hurden is a wooden pedestrian bridge between the city of Rapperswil and the village of Hurden crossing the upper Lake Zürich (Obersee) in Switzerland. The first wooden footbridge led across Lake Zürich, followed by several reconstructions at least until the late 2nd century AD when the Roman Empire built a 6 metres (20 ft) wide wooden bridge. On 6 April 2001, the reconstructed wooden footbridge was opened, being the longest wooden bridge in Switzerland.",
-            "display_date": "6 April 2001",
+            "date": {
+                "iso": "20010406T000000+0100",
+                "formatted": "6 April 2001"
+            },
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Rapperswil_-_Obersee_-_Holzbr%C3%BCcke_IMG_2846.JPG/800px-Rapperswil_-_Obersee_-_Holzbr%C3%BCcke_IMG_2846.JPG",
             "more_info_url": "https://en.wikipedia.org/wiki/Holzbr%C3%BCcke_Rapperswil-Hurden"
         }
@@ -36,7 +43,9 @@
         "meta": {
             "title": "Arkadiko Bridge",
             "message": "The Arkadiko Bridge or Kazarma Bridge is a Mycenaean bridge near the modern road from Tiryns to Epidauros on the Peloponnese, Greece. Dating to the Greek Bronze Age, it is one of the oldest arch bridges still in existence and use today and the oldest preserved bridge in Europe.\n\nThe corbel arch bridge belonged in Mycenaean times to a highway between the two cities, which formed part of a wider military road network. It has a culvert span of ca. 1 m and is made in the typical Mycenaean manner of Cyclopean stones. The structure is 22 metres (72 ft) long, 5.60 metres (18.4 ft) wide at the base and 4 metres (13 ft) high.",
-            "display_date": "Ca. 1300-1190 BC",
+            "date": {
+                "formatted": "Ca. 1300-1190 BC"
+            },
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Arkadiko_Mycenaean_Bridge_II.JPG/800px-Arkadiko_Mycenaean_Bridge_II.JPG",
             "more_info_url": "https://en.wikipedia.org/wiki/Arkadiko_Bridge"
         }

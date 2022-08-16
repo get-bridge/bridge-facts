@@ -17,7 +17,9 @@ You're welcome to help growing our database! To do so please edit [`data/v1/data
   "meta": {
       "title": "Ponte Santa Trinita",
       "message": "The Ponte Santa Trìnita is the oldest elliptic arch bridge in the world, characterised by three flattened ellipses. The outside spans each measure 29 m (95 ft) with the centre span being 32 m (105 ft) in length. On the night between 3 and 4 of August 1944, the bridge was destroyed by retreating German troops on the advance of the British 8th Army. The bridge was reconstructed in 1958 with original stones raised from the Arno or taken from the same quarry of Boboli gardens, under the direction of architect Riccardo Gizdulich, who examined florentine archives, and engineer Emilio Brizzi.",
-      "display_date": "16th century",
+      "date": {
+        "formatted": "16th century"
+      },
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/The_British_Army_in_Italy_1944_NA17848.jpg/606px-The_British_Army_in_Italy_1944_NA17848.jpg",
       "more_info_url": "https://en.wikipedia.org/wiki/Ponte_Santa_Trinita"
     }
@@ -28,15 +30,32 @@ You're welcome to help growing our database! To do so please edit [`data/v1/data
 
 #### `id`
 
-Must be a UUID and it's actual uniqueness within the dataset is validated. You can use VSCode with the [UUID Generator](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator) plugin to generate these.
+Must be a UUID and it's actual uniqueness within the dataset is validated. You can use:
+
+- CLI: `uuidgen`
+- VSCode plucing: [UUID Generator](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
 
 #### `specific_month_day` (*optional*)
 
 This is a two element array of a month and a day to help the client decide when to display the fact. This is optional since not all facts can be tied to an exact day.
 
-#### `meta.title`, `meta.message`, `meta.display_date`, `meta.image_url`
+#### `meta.title`, `meta.message`, `meta.date.formatted`, `meta.image_url`
 
 These are required and displayed on the UI.
+
+#### `meta.date.iso`
+
+This one is optional, and requires the date to be in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, eg.:
+
+```json
+{
+  "meta": {
+    "date": {
+      "iso": "20010406T000000+0100"
+    }
+  }
+}
+```
 
 #### `meta.more_info_url` (*optional*)
 
