@@ -1,6 +1,7 @@
 [
     {
         "id": "4a3ceb99-cea9-4b37-a163-0e9b6555e3d4",
+        "specific_month_day": [8, 3],
         "meta": {
             "title": "Ponte Santa Trinita",
             "message": "The Ponte Santa Trìnita is the oldest elliptic arch bridge in the world, characterised by three flattened ellipses. The outside spans each measure 29 m (95 ft) with the centre span being 32 m (105 ft) in length. On the night between 3 and 4 of August 1944, the bridge was destroyed by retreating German troops on the advance of the British 8th Army. The bridge was reconstructed in 1958 with original stones raised from the Arno or taken from the same quarry of Boboli gardens, under the direction of architect Riccardo Gizdulich, who examined florentine archives, and engineer Emilio Brizzi.",
@@ -25,6 +26,7 @@
     },
     {
         "id": "18a04da7-ab38-45e6-bb9f-bdab3d04410d",
+        "specific_month_day": [4, 6],
         "meta": {
             "title": "Holzbrücke Rapperswil-Hurden",
             "message": "Holzbrücke Rapperswil-Hurden is a wooden pedestrian bridge between the city of Rapperswil and the village of Hurden crossing the upper Lake Zürich (Obersee) in Switzerland. The first wooden footbridge led across Lake Zürich, followed by several reconstructions at least until the late 2nd century AD when the Roman Empire built a 6 metres (20 ft) wide wooden bridge. On 6 April 2001, the reconstructed wooden footbridge was opened, being the longest wooden bridge in Switzerland.",
