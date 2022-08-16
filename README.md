@@ -51,7 +51,7 @@ This one is optional, and requires the date to be in [ISO8601](https://www.iso.o
 {
   "meta": {
     "date": {
-      "iso": "20010406T000000+0100"
+      "iso": "2001-04-06T00:00:00+01:00Z"
     }
   }
 }
