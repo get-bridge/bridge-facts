@@ -6,6 +6,7 @@ import json
 from urllib.error import URLError
 from urllib.request import urlopen, Request
 from http.client import InvalidURL
+from datetime import datetime
 
 import jsonschema
 
@@ -44,6 +45,9 @@ def main(schema_path: str, input_path: str, check_broken_urls: bool) -> int:
         fact_id = fact["id"]
         if fact_id in seen_ids:
             return error(f"duplicate id: {fact_id}")
+        iso_date = fact["meta"]["date"].get("iso")
+        if iso_date and not is_iso_date_valid(iso_date):
+            return error(f"invalid date for id: {fact_id} ({iso_date})")
         seen_ids.add(fact_id)
 
     if check_broken_urls:
@@ -67,6 +71,14 @@ def is_url_broken(url: str) -> bool:
     except URLError:
         return True
     return resp.status != 200
+
+
+def is_iso_date_valid(input: str) -> bool:
+    try:
+        datetime.fromisoformat(input)
+    except:
+        return False
+    return True
 
 
 def error(msg: str) -> int:
