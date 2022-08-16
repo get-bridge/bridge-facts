@@ -4,11 +4,11 @@
 
 This is a part of our Hack Week project to provide the easter egg feature with interesting facts about random bridges around the world. For now [*the facts*](data.json) are stored in a single JSON file which has a [defined schema](schemas/bridge-facts.json) to ensure its validity and make sure the file served to the client is always in the correct format.
 
-For an example of how a properly formatted data file looks like, please have a look at [`data.sample.json`](data.sample.json)!
+For an example of how a properly formatted data file looks like, please have a look at [`data/v1/data.sample.json`](data/v1/data.sample.json)!
 
 ## Contributing
 
-You're welcome to help growing our database! To do so please edit [`data.json`](data.json) by adding new elements and opening a PR. An example of a single `Fact` element:
+You're welcome to help growing our database! To do so please edit [`data/v1/data.json`](data/v1/data.json) by adding new elements and opening a PR. An example of a single `Fact` element:
 
 ```json
 {
