@@ -9,7 +9,9 @@ from http.client import InvalidURL
 
 import jsonschema
 
-DEFAULT_SCHEMA_PATH = os.path.join("schemas", "bridge-facts.json")
+CURRENT_VERSION = "v1"
+
+DEFAULT_SCHEMA_PATH = os.path.join("data", CURRENT_VERSION, "schema.json")
 
 
 def main(schema_path: str, input_path: str, check_broken_urls: bool) -> int:
