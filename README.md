@@ -28,12 +28,14 @@ You're welcome to help growing our database! To do so please edit [`data/v1/data
 
 ### Description
 
+The following structure describes a fact about a particular bridge. Ideally, there has to be some correlation between the specified dates and the message text.
+
 #### `id`
 
 Must be a UUID and it's actual uniqueness within the dataset is validated. You can use:
 
 - CLI: `uuidgen`
-- VSCode plucing: [UUID Generator](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
+- VSCode plugin: [UUID Generator](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
 
 #### `specific_month_day` (*optional*)
 
@@ -41,11 +43,11 @@ This is a two element array of a month and a day to help the client decide when 
 
 #### `meta.title`, `meta.message`, `meta.date.formatted`, `meta.image_url`
 
-These are required and displayed on the UI.
+These are required and displayed on the UI. Please note that the image will be displayed on a mobile device, thus please try to avoid using large files (ideal logical size is around 800px wide and roughly ~2-300kB on disk).
 
-#### `meta.date.iso`
+#### `meta.date.iso` (*optional*)
 
-This one is optional, and requires the date to be in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, eg.:
+If present, this will be used to show a formatted date instead of `meta.date.formatted`. Must be in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, eg.:
 
 ```json
 {
