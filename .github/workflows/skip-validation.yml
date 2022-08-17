@@ -1,0 +1,14 @@
+name: 'Validation'
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - '**.json'
+
+jobs:
+  validate_json:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No build required"'
