@@ -202,6 +202,20 @@
     },
     },
     {
+        "id": "e2d688ec-26f3-4322-b5e5-8c0ad6615b73",
+        "specific_month_day": [7, 1],
+        "meta": {
+            "title": "Øresund Bridge",
+            "message": "The Øresund Bridge, connecting Sweden with Denmark, ends overwater and continues underwater.",
+            "date": {
+                "formatted": "July 1, 2000",
+                "iso": "2000-07-01T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/%C3%98resund_Bridge_from_the_air_in_September_2015.jpg/800px-%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/%C3%98resund_Bridge"
+        }
+    },
+    {
         "id": "bcf061f7-b203-4d7f-b8e8-bf2ff048c600",
         "meta": {
             "title": "Niagara Falls Suspension Bridge",
