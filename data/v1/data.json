@@ -159,5 +159,19 @@
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Zhangjiajie_Glass_Bridge_20190726_%282%29.jpg/800px-Zhangjiajie_Glass_Bridge_20190726_%282%29.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Zhangjiajie_Glass_Bridge"
         }
+    },
+    {
+        "id": "E438B136-0B06-4F49-92C2-56EC98AF0D0A",
+        "specific_month_day": [8, 30],
+        "meta": {
+            "title": "Lake Pontchartrain Causeway",
+            "message": "Since 1969, it was listed by Guinness World Records as the longest continuous bridge over water in the world; in 2011, in response to the opening of the longer Jiaozhou Bay Bridge in China, Guinness World Records created two categories for bridges over water: continuous and aggregate lengths over water.\nLake Pontchartrain Causeway then became the longest bridge over water (continuous), while Jiaozhou Bay Bridge the longest bridge over water (aggregate).",
+            "date": {
+                "formatted": "August 30, 1956",
+                "iso": "1956-08-30T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lake_Pontchartrain_by_Sentinel-2.jpg/784px-Lake_Pontchartrain_by_Sentinel-2.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Lake_Pontchartrain_Causeway"
+        }
     }
 ]
