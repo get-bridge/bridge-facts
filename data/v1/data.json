@@ -292,5 +292,68 @@
             "more_info_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge#Opening"
         }
     },
+    {
+        "id": "16e2ffd4-629b-4485-81a5-c6fcd9e1f0b7",
+        "meta": {
+            "title": "Corpus callosum",
+            "message": "Situated in the center of the brain, the corpus callosum serves as a bridge that connects the right and left hemispheres with 200 million nerve fibers.\nBack in the 1960s, researchers observed that surgically removing the corpus callosum — a process known as callosotomy — diminished people’s ability to perceive and interpret the world.\n\nThe mission of the Corpus Callosum SRE team is to collaborate with service owners and feature teams to identify and reduce manual, operational overhead allowing developers to focus on feature work and empowering service owners to own their services end-to-end in a way that makes easy things easy and hard things possible.",
+            "date": {
+                "formatted": "1960"
+            },
+            "image_url": "https://images.medicinenet.com/images/article/main_image/what-is-the-role-of-the-corpus-callosum.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Corpus_callosum"
+        }
+    },
+    {
+        "id": "60841a63-88bf-4da3-9a55-16bd7b40b5cd",
+        "meta": {
+            "title": "Oberbaum",
+            "message": "The Oberbaum Bridge (German: Oberbaumbrücke) is a double-deck bridge crossing Berlin's River Spree, considered one of the city's landmarks. It links Friedrichshain and Kreuzberg, former boroughs that were divided by the Berlin Wall, and has become an important symbol of Berlin’s unity.",
+            "date": {
+                "formatted": "1732"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Oberbaumbr%C3%BCcke_mit_U-Bahn.jpg/800px-Oberbaumbr%C3%BCcke_mit_U-Bahn.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Oberbaum_Bridge"
+        }
+    },
+    {
+        "id": "0d0d2a97-2039-4fc4-bb5c-b81683320411",
+        "specific_month_day": [11, 13],
+        "meta": {
+            "title": "Orinoquia",
+            "message": "The Second Orinoco crossing or Orinoquia Bridge is a combined road and railway bridge over the Orinoco River near Ciudad Guayana, Venezuela. It was inaugurated on November 13, 2006 and named Orinoquia Bridge.",
+            "date": {
+                "formatted": "Nov 13, 2006",
+                "iso": "2006-11-13T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/2PuenteSobreElOrinoco.jpg/800px-2PuenteSobreElOrinoco.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Orinoquia_Bridge"
+        }
+    },
+    {
+        "id": "0ba90975-d754-44c1-9b9f-fddc5fff2477",
+        "meta": {
+            "title": "Schuylkill",
+            "message": "The Schuylkill River Bridge (also known as the Diamond Run Viaduct) is a bridge that carries the Pennsylvania Turnpike across the Schuylkill River. The length of the bridge is 1,224 feet (373 m). The bridge was first built in 1954 and has been replaced around the summer of 1999 along with the Diamond Run Viaduct in order to accommodate future travel needs.",
+            "date": {
+                "formatted": "1954"
+            },
+            "image_url": "https://www.nps.gov/common/uploads/place/nri/20170427/places/E53519F8-1DD8-B71B-0B5C5A69E111898C/E53519F8-1DD8-B71B-0B5C5A69E111898C.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Schuylkill_River_Bridge"
+        }
+    },
+    {
+        "id": "18a6938d-2fdb-4258-996f-e850bb57d63f",
+        "specific_month_day": [8, 9],
+        "meta": {
+            "title": "Tiszavirág",
+            "message": "Tiszavirág híd (Mayfly Bridge) is a pedestrian and cyclist bridge in Szolnok, Hungary on the Tisza river.\n\nThe mobile application you're holding now also developed by Team Tiszavirág.",
+            "date": {
+                "formatted": "Aug 9, 2009",
+                "iso": "2009-08-09T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tisza_river_-_Szolnok%2C_Hungary_%2814%29.JPG/800px-Tisza_river_-_Szolnok%2C_Hungary_%2814%29.JPG",
+            "more_info_url": "https://en.wikipedia.org/wiki/Tiszavir%C3%A1g_bridge"
+        }
     }
 ]
