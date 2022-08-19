@@ -200,6 +200,21 @@
             "more_info_url": "https://www.kqed.org/quest/36106/life-on-the-gate-working-on-the-golden-gate-bridge-1933-37"
         }
     },
+    },
+    {
+        "id": "d1571d6a-2fd7-4c0b-892b-47000d539dc1",
+        "specific_month_day": [5, 27],
+        "meta": {
+            "title": "Golden Gate Bridge",
+            "message": "The Golden Gate Bridge in San Francisco was not originally going to be painted orange. The orange color was only supposed to be for a sealant and was to be painted with black and yellow stripes to ensure visibility by passing ships. The orange color worked better for fog so it was kept instead.",
+            "date": {
+                "formatted": "May 27, 1937",
+                "iso": "1937-05-27T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Below_Golden_Gate_Bridge.jpeg/800px-Below_Golden_Gate_Bridge.jpeg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge#Design"
+        }
+    },
     {
         "id": "9a5681f2-a206-4cd3-a16e-39b8d8a8925e",
         "specific_month_day": [5, 17],
