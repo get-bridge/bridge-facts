@@ -202,6 +202,18 @@
     },
     },
     {
+        "id": "bcdc8e9f-e54f-496c-8462-81dc2e3c57a1",
+        "meta": {
+            "title": "Fairy Bridge",
+            "message": "The largest natural bridge on Earth was virtually unknown to the rest of the world, until it was observed on Google Earth.",
+            "date": {
+                "formatted": "2009"
+            },
+            "image_url": "https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2011%2F12%2FFairyBridge1680.jpg&signature=323786c3a6c15a788bbe18c43762ba1f",
+            "more_info_url": "http://www.naturalarches.org/big-FairyBridge.htm"
+        }
+    },
+    {
         "id": "c1b2632b-d3d0-4efe-be78-4c67d4a9d765",
         "meta": {
             "title": "Amazon Bridge(s)",
