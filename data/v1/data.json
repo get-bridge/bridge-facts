@@ -145,5 +145,215 @@
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sankt_Petersburg_Egyptian_Bridge_Spinx.jpg/800px-Sankt_Petersburg_Egyptian_Bridge_Spinx.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Egyptian_Bridge"
         }
+    },
+    {
+        "id": "8eb00946-16a8-4a27-8579-23075348c31d",
+        "specific_month_day": [8, 20],
+        "meta": {
+            "title": "Zhangjiajie Glass Bridge",
+            "message": "On August 20, 2016, the highest and longest glass-bottomed bridge in the world was opened in China. It crosses China’s Zhangjiajie Grand Canyon in the Hunan Province. The bridge is suspended more than 1,400 feet above the valley and is almost 1,000 feet long.\n\nUnfortunately, officials were forced to close the bridge within a few days of its opening because it was overwhelmed by visitors. The structure was designed to handle 8,000 people per day, but more than 10 times that number were showing up to travel across it daily. Fortunately, the large pedestrian traffic volume caused no damage to the bridge.\n\nOfficials are working on a plan to control the number of visitors to the glass bridge each day.",
+            "date": {
+                "formatted": "August 20, 2016",
+                "iso": "2016-08-20T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Zhangjiajie_Glass_Bridge_20190726_%282%29.jpg/800px-Zhangjiajie_Glass_Bridge_20190726_%282%29.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Zhangjiajie_Glass_Bridge"
+        }
+    },
+    {
+        "id": "e438b136-0b06-4f49-92c2-56ec98af0d0a",
+        "specific_month_day": [8, 30],
+        "meta": {
+            "title": "Lake Pontchartrain Causeway",
+            "message": "Since 1969, it was listed by Guinness World Records as the longest continuous bridge over water in the world; in 2011, in response to the opening of the longer Jiaozhou Bay Bridge in China, Guinness World Records created two categories for bridges over water: continuous and aggregate lengths over water.\nLake Pontchartrain Causeway then became the longest bridge over water (continuous), while Jiaozhou Bay Bridge the longest bridge over water (aggregate).",
+            "date": {
+                "formatted": "August 30, 1956",
+                "iso": "1956-08-30T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lake_Pontchartrain_by_Sentinel-2.jpg/784px-Lake_Pontchartrain_by_Sentinel-2.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Lake_Pontchartrain_Causeway"
+        }
+    },
+    {
+        "id": "aa84edb4-b82f-4629-8165-ea6bdfc3935f",
+        "specific_month_day": [10, 4],
+        "meta": {
+            "title": "Kurilpa Bridge",
+            "message": "The Kurilpa Bridge in Brisbane, Australia is one of the longest footbridges in the world. It’s also the largest hybrid tensegrity bridge, leveraging a synergy between balanced tension and compression components to create a light structure that is also incredibly strong.",
+            "date": {
+                "formatted": "October 4, 2009",
+                "iso": "2009-10-04T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2010-04_Kurilpa_Bridge.jpg/800px-2010-04_Kurilpa_Bridge.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Kurilpa_Bridge"
+        }
+    },
+    {
+        "id": "fc5f044c-f2fe-4d0c-b3c5-85adad215ac0",
+        "meta": {
+            "title": "Golden Gate Bridge",
+            "message": "When building the Golden Gate Bridge, the lead structural engineer insisted on the installation of a safety net even though its $130,000 cost was deemed exorbitant. Over the four years of its construction, the net saved 19 men, who named themselves the \"Halfway to Hell Club.\"",
+            "date": {
+                "formatted": "1933"
+            },
+            "image_url": "https://cdn.kqed.org/wp-content/uploads/sites/39/2012/04/GGB-1936-Workers-feature-image.jpg",
+            "more_info_url": "https://www.kqed.org/quest/36106/life-on-the-gate-working-on-the-golden-gate-bridge-1933-37"
+        }
+    },
+    {
+        "id": "2f7b05b4-27d1-45cb-82c9-a8cfa53203f3",
+        "specific_month_day": [11, 1],
+        "meta": {
+            "title": "Mackinac Bridge",
+            "message": "The five-mile-long Mackinac Bridge has a program that sends a crew member to drive people across if they’re too afraid to drive themselves. It gets between 1,200 to 1,400 calls every year.",
+            "date": {
+                "formatted": "November 1, 1957",
+                "iso": "1957-11-01T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mackinac_Bridge_from_the_air4.jpg/729px-Mackinac_Bridge_from_the_air4.jpg",
+            "more_info_url": "https://abcnews.go.com/Health/terrified-motorists-lift-bridge/story?id=19250164"
+        }
+    },
+    {
+        "id": "e2d688ec-26f3-4322-b5e5-8c0ad6615b73",
+        "specific_month_day": [7, 1],
+        "meta": {
+            "title": "Øresund Bridge",
+            "message": "The Øresund Bridge, connecting Sweden with Denmark, ends overwater and continues underwater.",
+            "date": {
+                "formatted": "July 1, 2000",
+                "iso": "2000-07-01T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/%C3%98resund_Bridge_from_the_air_in_September_2015.jpg/800px-%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/%C3%98resund_Bridge"
+        }
+    },
+    {
+        "id": "bcf061f7-b203-4d7f-b8e8-bf2ff048c600",
+        "meta": {
+            "title": "Niagara Falls Suspension Bridge",
+            "message": "In 1848, to begin construction on the Niagara Falls Suspension Bridge, engineers needed to secure a line across the 800-foot chasm. The lead engineer held a kite-flying contest and eventually paid a local boy $5 for securing the first line over the river.",
+            "date": {
+                "formatted": "Jan 1848"
+            },
+            "image_url": "https://www.thenews.com.pk//assets/uploads/updates/2018-02-07/278202_3851328_updates.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Niagara_Falls_Suspension_Bridge"
+        }
+    },
+    {
+        "id": "bcdc8e9f-e54f-496c-8462-81dc2e3c57a1",
+        "meta": {
+            "title": "Fairy Bridge",
+            "message": "The largest natural bridge on Earth was virtually unknown to the rest of the world, until it was observed on Google Earth.",
+            "date": {
+                "formatted": "2009"
+            },
+            "image_url": "https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2011%2F12%2FFairyBridge1680.jpg&signature=323786c3a6c15a788bbe18c43762ba1f",
+            "more_info_url": "http://www.naturalarches.org/big-FairyBridge.htm"
+        }
+    },
+    {
+        "id": "c1b2632b-d3d0-4efe-be78-4c67d4a9d765",
+        "meta": {
+            "title": "Amazon Bridge(s)",
+            "message": "There are no bridges across the entire width of the river.[10] This is not because the river would be too wide to bridge; for most of its length, engineers could build a bridge across the river easily. For most of its course, the river flows through the Amazon Rainforest, where there are very few roads and cities.",
+            "date": {
+                "formatted": "2022"
+            },
+            "image_url": "https://i0.wp.com/eos.org/wp-content/uploads/2021/12/amazon-basin-hydrology-review.jpg?w=800&ssl=1",
+            "more_info_url": "https://simple.wikipedia.org/wiki/Amazon_River#Bridges"
+        }
+    },
+    {
+        "id": "d1571d6a-2fd7-4c0b-892b-47000d539dc1",
+        "specific_month_day": [5, 27],
+        "meta": {
+            "title": "Golden Gate Bridge",
+            "message": "The Golden Gate Bridge in San Francisco was not originally going to be painted orange. The orange color was only supposed to be for a sealant and was to be painted with black and yellow stripes to ensure visibility by passing ships. The orange color worked better for fog so it was kept instead.",
+            "date": {
+                "formatted": "May 27, 1937",
+                "iso": "1937-05-27T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Below_Golden_Gate_Bridge.jpeg/800px-Below_Golden_Gate_Bridge.jpeg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge#Design"
+        }
+    },
+    {
+        "id": "9a5681f2-a206-4cd3-a16e-39b8d8a8925e",
+        "specific_month_day": [5, 17],
+        "meta": {
+            "title": "New York's Brooklyn Bridge",
+            "message": "After the opening of the New York's Brooklyn Bridge, a rumor came about that the Bridge was unstable and was going to collapse.\nTo prove it was safe, the circus master P. T. Barnum along with Jumbo the elephant, led a parade of 21 elephants over the Brooklyn Bridge.\nThis helped to lessen doubts about the bridge's stability while also promoting Barnum's circus.",
+            "date": {
+                "formatted": "May 17, 1884",
+                "iso": "1884-05-17T00:00:00+00:00"
+            },
+            "image_url": "https://tinkmara.com/wp-content/uploads/2020/08/brooklyn-bridge-elephant-crossing_-1.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge#Opening"
+        }
+    },
+    {
+        "id": "16e2ffd4-629b-4485-81a5-c6fcd9e1f0b7",
+        "meta": {
+            "title": "Corpus callosum",
+            "message": "Situated in the center of the brain, the corpus callosum serves as a bridge that connects the right and left hemispheres with 200 million nerve fibers.\nBack in the 1960s, researchers observed that surgically removing the corpus callosum — a process known as callosotomy — diminished people’s ability to perceive and interpret the world.\n\nThe mission of the Corpus Callosum SRE team is to collaborate with service owners and feature teams to identify and reduce manual, operational overhead allowing developers to focus on feature work and empowering service owners to own their services end-to-end in a way that makes easy things easy and hard things possible.",
+            "date": {
+                "formatted": "1960"
+            },
+            "image_url": "https://images.medicinenet.com/images/article/main_image/what-is-the-role-of-the-corpus-callosum.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Corpus_callosum"
+        }
+    },
+    {
+        "id": "60841a63-88bf-4da3-9a55-16bd7b40b5cd",
+        "meta": {
+            "title": "Oberbaum",
+            "message": "The Oberbaum Bridge (German: Oberbaumbrücke) is a double-deck bridge crossing Berlin's River Spree, considered one of the city's landmarks. It links Friedrichshain and Kreuzberg, former boroughs that were divided by the Berlin Wall, and has become an important symbol of Berlin’s unity.",
+            "date": {
+                "formatted": "1732"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Oberbaumbr%C3%BCcke_mit_U-Bahn.jpg/800px-Oberbaumbr%C3%BCcke_mit_U-Bahn.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Oberbaum_Bridge"
+        }
+    },
+    {
+        "id": "0d0d2a97-2039-4fc4-bb5c-b81683320411",
+        "specific_month_day": [11, 13],
+        "meta": {
+            "title": "Orinoquia",
+            "message": "The Second Orinoco crossing or Orinoquia Bridge is a combined road and railway bridge over the Orinoco River near Ciudad Guayana, Venezuela. It was inaugurated on November 13, 2006 and named Orinoquia Bridge.",
+            "date": {
+                "formatted": "Nov 13, 2006",
+                "iso": "2006-11-13T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/2PuenteSobreElOrinoco.jpg/800px-2PuenteSobreElOrinoco.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Orinoquia_Bridge"
+        }
+    },
+    {
+        "id": "0ba90975-d754-44c1-9b9f-fddc5fff2477",
+        "meta": {
+            "title": "Schuylkill",
+            "message": "The Schuylkill River Bridge (also known as the Diamond Run Viaduct) is a bridge that carries the Pennsylvania Turnpike across the Schuylkill River. The length of the bridge is 1,224 feet (373 m). The bridge was first built in 1954 and has been replaced around the summer of 1999 along with the Diamond Run Viaduct in order to accommodate future travel needs.",
+            "date": {
+                "formatted": "1954"
+            },
+            "image_url": "https://www.nps.gov/common/uploads/place/nri/20170427/places/E53519F8-1DD8-B71B-0B5C5A69E111898C/E53519F8-1DD8-B71B-0B5C5A69E111898C.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Schuylkill_River_Bridge"
+        }
+    },
+    {
+        "id": "18a6938d-2fdb-4258-996f-e850bb57d63f",
+        "specific_month_day": [8, 9],
+        "meta": {
+            "title": "Tiszavirág",
+            "message": "Tiszavirág híd (Mayfly Bridge) is a pedestrian and cyclist bridge in Szolnok, Hungary on the Tisza river.\n\nThe mobile application you're holding now also developed by Team Tiszavirág.",
+            "date": {
+                "formatted": "Aug 9, 2009",
+                "iso": "2009-08-09T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tisza_river_-_Szolnok%2C_Hungary_%2814%29.JPG/800px-Tisza_river_-_Szolnok%2C_Hungary_%2814%29.JPG",
+            "more_info_url": "https://en.wikipedia.org/wiki/Tiszavir%C3%A1g_bridge"
+        }
     }
 ]
