@@ -202,6 +202,18 @@
     },
     },
     {
+        "id": "bcf061f7-b203-4d7f-b8e8-bf2ff048c600",
+        "meta": {
+            "title": "Niagara Falls Suspension Bridge",
+            "message": "In 1848, to begin construction on the Niagara Falls Suspension Bridge, engineers needed to secure a line across the 800-foot chasm. The lead engineer held a kite-flying contest and eventually paid a local boy $5 for securing the first line over the river.",
+            "date": {
+                "formatted": "Jan 1848"
+            },
+            "image_url": "https://www.thenews.com.pk//assets/uploads/updates/2018-02-07/278202_3851328_updates.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Niagara_Falls_Suspension_Bridge"
+        }
+    },
+    {
         "id": "bcdc8e9f-e54f-496c-8462-81dc2e3c57a1",
         "meta": {
             "title": "Fairy Bridge",
