@@ -200,6 +200,19 @@
             "more_info_url": "https://www.kqed.org/quest/36106/life-on-the-gate-working-on-the-golden-gate-bridge-1933-37"
         }
     },
+    {
+        "id": "2f7b05b4-27d1-45cb-82c9-a8cfa53203f3",
+        "specific_month_day": [11, 1],
+        "meta": {
+            "title": "Mackinac Bridge",
+            "message": "The five-mile-long Mackinac Bridge has a program that sends a crew member to drive people across if they’re too afraid to drive themselves. It gets between 1,200 to 1,400 calls every year.",
+            "date": {
+                "formatted": "November 1, 1957",
+                "iso": "1957-11-01T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mackinac_Bridge_from_the_air4.jpg/729px-Mackinac_Bridge_from_the_air4.jpg",
+            "more_info_url": "https://abcnews.go.com/Health/terrified-motorists-lift-bridge/story?id=19250164"
+        }
     },
     {
         "id": "e2d688ec-26f3-4322-b5e5-8c0ad6615b73",
