@@ -199,5 +199,20 @@
             "image_url": "https://cdn.kqed.org/wp-content/uploads/sites/39/2012/04/GGB-1936-Workers-feature-image.jpg",
             "more_info_url": "https://www.kqed.org/quest/36106/life-on-the-gate-working-on-the-golden-gate-bridge-1933-37"
         }
+    },
+    {
+        "id": "9a5681f2-a206-4cd3-a16e-39b8d8a8925e",
+        "specific_month_day": [5, 17],
+        "meta": {
+            "title": "New York's Brooklyn Bridge",
+            "message": "After the opening of the New York's Brooklyn Bridge, a rumor came about that the Bridge was unstable and was going to collapse.\nTo prove it was safe, the circus master P. T. Barnum along with Jumbo the elephant, led a parade of 21 elephants over the Brooklyn Bridge.\nThis helped to lessen doubts about the bridge's stability while also promoting Barnum's circus.",
+            "date": {
+                "formatted": "May 17, 1884",
+                "iso": "1884-05-17T00:00:00+00:00"
+            },
+            "image_url": "https://tinkmara.com/wp-content/uploads/2020/08/brooklyn-bridge-elephant-crossing_-1.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge#Opening"
+        }
+    },
     }
 ]
