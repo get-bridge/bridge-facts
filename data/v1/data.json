@@ -187,5 +187,17 @@
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2010-04_Kurilpa_Bridge.jpg/800px-2010-04_Kurilpa_Bridge.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Kurilpa_Bridge"
         }
+    },
+    {
+        "id": "fc5f044c-f2fe-4d0c-b3c5-85adad215ac0",
+        "meta": {
+            "title": "Golden Gate Bridge",
+            "message": "When building the Golden Gate Bridge, the lead structural engineer insisted on the installation of a safety net even though its $130,000 cost was deemed exorbitant. Over the four years of its construction, the net saved 19 men, who named themselves the \"Halfway to Hell Club.\"",
+            "date": {
+                "formatted": "1933"
+            },
+            "image_url": "https://cdn.kqed.org/wp-content/uploads/sites/39/2012/04/GGB-1936-Workers-feature-image.jpg",
+            "more_info_url": "https://www.kqed.org/quest/36106/life-on-the-gate-working-on-the-golden-gate-bridge-1933-37"
+        }
     }
 ]
