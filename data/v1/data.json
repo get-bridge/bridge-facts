@@ -202,6 +202,18 @@
     },
     },
     {
+        "id": "c1b2632b-d3d0-4efe-be78-4c67d4a9d765",
+        "meta": {
+            "title": "Amazon Bridge(s)",
+            "message": "There are no bridges across the entire width of the river.[10] This is not because the river would be too wide to bridge; for most of its length, engineers could build a bridge across the river easily. For most of its course, the river flows through the Amazon Rainforest, where there are very few roads and cities.",
+            "date": {
+                "formatted": "2022"
+            },
+            "image_url": "https://i0.wp.com/eos.org/wp-content/uploads/2021/12/amazon-basin-hydrology-review.jpg?w=800&ssl=1",
+            "more_info_url": "https://simple.wikipedia.org/wiki/Amazon_River#Bridges"
+        }
+    },
+    {
         "id": "d1571d6a-2fd7-4c0b-892b-47000d539dc1",
         "specific_month_day": [5, 27],
         "meta": {
