@@ -173,5 +173,19 @@
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lake_Pontchartrain_by_Sentinel-2.jpg/784px-Lake_Pontchartrain_by_Sentinel-2.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Lake_Pontchartrain_Causeway"
         }
+    },
+    {
+        "id": "AA84EDB4-B82F-4629-8165-EA6BDFC3935F",
+        "specific_month_day": [10, 4],
+        "meta": {
+            "title": "Kurilpa Bridge",
+            "message": "The Kurilpa Bridge in Brisbane, Australia is one of the longest footbridges in the world. It’s also the largest hybrid tensegrity bridge, leveraging a synergy between balanced tension and compression components to create a light structure that is also incredibly strong.",
+            "date": {
+                "formatted": "October 4, 2009",
+                "iso": "2009-10-04T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2010-04_Kurilpa_Bridge.jpg/800px-2010-04_Kurilpa_Bridge.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Kurilpa_Bridge"
+        }
     }
 ]
