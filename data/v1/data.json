@@ -145,5 +145,19 @@
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sankt_Petersburg_Egyptian_Bridge_Spinx.jpg/800px-Sankt_Petersburg_Egyptian_Bridge_Spinx.jpg",
             "more_info_url": "https://en.wikipedia.org/wiki/Egyptian_Bridge"
         }
+    },
+    {
+        "id": "8EB00946-16A8-4A27-8579-23075348C31D",
+        "specific_month_day": [8, 20],
+        "meta": {
+            "title": "Zhangjiajie Glass Bridge",
+            "message": "On August 20, 2016, the highest and longest glass-bottomed bridge in the world was opened in China. It crosses China’s Zhangjiajie Grand Canyon in the Hunan Province. The bridge is suspended more than 1,400 feet above the valley and is almost 1,000 feet long.\n\nUnfortunately, officials were forced to close the bridge within a few days of its opening because it was overwhelmed by visitors. The structure was designed to handle 8,000 people per day, but more than 10 times that number were showing up to travel across it daily. Fortunately, the large pedestrian traffic volume caused no damage to the bridge.\n\nOfficials are working on a plan to control the number of visitors to the glass bridge each day.",
+            "date": {
+                "formatted": "August 20, 2016",
+                "iso": "2016-08-20T00:00:00+00:00"
+            },
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Zhangjiajie_Glass_Bridge_20190726_%282%29.jpg/800px-Zhangjiajie_Glass_Bridge_20190726_%282%29.jpg",
+            "more_info_url": "https://en.wikipedia.org/wiki/Zhangjiajie_Glass_Bridge"
+        }
     }
 ]
