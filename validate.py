@@ -21,13 +21,11 @@ def main(schema_path: str, input_path: str, check_broken_urls: bool) -> int:
     if not os.path.exists(input_path):
         return error(f"input file not found at {input_path}")
 
-    schema = None
     try:
         schema = json.loads(open(schema_path).read())
     except json.JSONDecodeError as e:
         return error(f"decode error: {e} (file: {schema_path})")
 
-    data = None
     try:
         data = json.loads(open(input_path).read())
     except json.JSONDecodeError as e:
