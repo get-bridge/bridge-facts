@@ -5,10 +5,9 @@ from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import json
 from urllib.error import URLError
 from urllib.request import urlopen, Request
-from http.client import InvalidURL
 from datetime import datetime
 
-import jsonschema
+from jsonschema import validate as validate_json, SchemaError, ValidationError
 
 CURRENT_VERSION = "v1"
 
@@ -32,10 +31,10 @@ def main(schema_path: str, input_path: str, check_broken_urls: bool) -> int:
         return error(f"decode error: {e} (file: {input_path})")
 
     try:
-        jsonschema.validate(data, schema)
-    except jsonschema.SchemaError as e:
+        validate_json(data, schema)
+    except SchemaError as e:
         return error(f"bad schema: {e}")
-    except jsonschema.ValidationError as e:
+    except ValidationError as e:
         return error(f"bad input: {e}")
 
     seen_ids = set()
@@ -43,10 +42,10 @@ def main(schema_path: str, input_path: str, check_broken_urls: bool) -> int:
         fact_id = fact["id"]
         if fact_id in seen_ids:
             return error(f"duplicate id: {fact_id}")
+        seen_ids.add(fact_id)
         iso_date = fact["meta"]["date"].get("iso")
         if iso_date and not is_iso_date_valid(iso_date):
             return error(f"invalid date for id: {fact_id} ({iso_date})")
-        seen_ids.add(fact_id)
 
     if check_broken_urls:
         for fact in data:
@@ -62,21 +61,21 @@ def main(schema_path: str, input_path: str, check_broken_urls: bool) -> int:
 
 
 def is_url_broken(url: str) -> bool:
-    req = Request(url=url, method="HEAD")
-    resp = None
     try:
-        resp = urlopen(req)
+        resp = urlopen(Request(url=url, method="HEAD"))
     except URLError:
         return True
-    return resp.status != 200
+    else:
+        return resp.status != 200
 
 
-def is_iso_date_valid(input: str) -> bool:
+def is_iso_date_valid(date_string: str) -> bool:
     try:
-        datetime.fromisoformat(input)
-    except:
+        datetime.fromisoformat(date_string)
+    except ValueError:
         return False
-    return True
+    else:
+        return True
 
 
 def error(msg: str) -> int:
@@ -89,10 +88,12 @@ if __name__ == "__main__":
         description="Validate the Bridge Facts JSON file against the schema",
         formatter_class=ArgumentDefaultsHelpFormatter,
     )
-    parser.add_argument("input_file", help="path to a file to be validated")
-    parser.add_argument("-s", "--schema", metavar="path",
-                        default=DEFAULT_SCHEMA_PATH, help="path to schema file")
-    parser.add_argument("-b", "--broken-urls", action="store_true", help="check also for broken URLs")
+    parser.add_argument("input_file",
+                        help="path to a file to be validated")
+    parser.add_argument("-s", "--schema", metavar="path", default=DEFAULT_SCHEMA_PATH,
+                        help="path to schema file")
+    parser.add_argument("-b", "--broken-urls", action="store_true",
+                        help="check also for broken URLs")
 
     args = parser.parse_args()
 
